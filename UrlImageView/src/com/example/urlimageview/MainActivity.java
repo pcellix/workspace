@@ -17,12 +17,12 @@ import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.os.Handler;
+import android.os.Message;
 import android.preference.PreferenceManager;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ImageView;
-import android.widget.Toast;
 
 public class MainActivity extends Activity {
 
@@ -42,7 +42,7 @@ public class MainActivity extends Activity {
     // The BroadcastReceiver that tracks network connectivity changes.
     private NetworkReceiver receiver = new NetworkReceiver();
 	Bitmap bitmap;
-	
+	ImageView iv;
 
 
 	@Override
@@ -53,27 +53,7 @@ public class MainActivity extends Activity {
 	        receiver = new NetworkReceiver();
 	        this.registerReceiver(receiver, filter);
 		
-//		new Thread(new Runnable() {
-//
-//			@Override
-//			public void run() {
-//				try {
-//		
-//					URL url = new URL(
-//							"http://www.muzykalnie.pl/pictures/Wokalistki/Cheryl_Cole/cheryl_cole_3.jpg");
-//					HttpURLConnection connection = (HttpURLConnection) url
-//							.openConnection();
-//					connection.setDoInput(true);
-//					connection.connect();
-//					InputStream input = connection.getInputStream();
-//					bitmap = BitmapFactory.decodeStream(input);
-//					Log.d("bass", "bitmap decoded");
-//					Log.d("bass", "empty message send");
-//				} catch (IOException e) {
-//					e.printStackTrace();
-//				}
-//			}
-//		}).start();
+
 	     }
 	@Override 
     public void onDestroy() {
@@ -99,6 +79,8 @@ public class MainActivity extends Activity {
 	        if(refreshDisplay){
 	            loadPage();    
 	        }
+	        
+	        
 	    }
 	 
 	   public void loadPage(){
@@ -116,6 +98,7 @@ public class MainActivity extends Activity {
 						connection.connect();
 						InputStream input = connection.getInputStream();
 						bitmap = BitmapFactory.decodeStream(input);
+						handler1.sendEmptyMessage(0);
 						Log.d("bass", "bitmap decoded");
 						Log.d("bass", "empty message send");
 					} catch (IOException e) {
@@ -157,16 +140,16 @@ public class MainActivity extends Activity {
 	    return super.onMenuItemSelected(featureId, item);
 	}
 
-//	private Handler handler1 = new Handler() {
-//
-//		@Override
-//		public void handleMessage(Message msg) {
-//			iv = (ImageView) findViewById(R.id.iv);
-//			iv.setImageBitmap(bitmap);
-//			Log.d("bass", "saass");
-//		}
+	private Handler handler1 = new Handler() {
 
-//	};
+		@Override
+		public void handleMessage(Message msg) {
+			iv = (ImageView) findViewById(R.id.iv);
+			iv.setImageBitmap(bitmap);
+			Log.d("bass", "saass");
+		}
+
+	};
 	public class NetworkReceiver extends BroadcastReceiver {   
 	      
 		@Override

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
        <ListPreference
-	            android:key="connection_status"
+	            android:key="listPref"
 	            android:title="Choose your connection status"
 	            android:summary="Define how your connection works"
 	            android:entries="@array/network_names"
