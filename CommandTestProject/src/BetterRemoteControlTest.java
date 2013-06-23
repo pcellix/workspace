@@ -34,5 +34,6 @@ public class BetterRemoteControlTest {
 		remote.offButtonWasPushed(1);
 		remote.offButtonWasPushed(2);
 		remote.offButtonWasPushed(3);
+		remote.undoButtonWasPush();
 	}
 }

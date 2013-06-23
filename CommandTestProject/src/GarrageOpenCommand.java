@@ -11,6 +11,12 @@ public class GarrageOpenCommand implements Command {
 		garrageDoor.up();
 		garrageDoor.lightOn();		
 	}
+
+	@Override
+	public void undo() {
+		garrageDoor.down();
+		
+	}
 	
 	
 

@@ -9,5 +9,9 @@ public class GarrageDownCommand implements Command {
 	public void execute() {
 		garrageDoor.down();
 	}
+	
+	public void undo() {
+		garrageDoor.up();
+	}
 
 }
