@@ -6,11 +6,15 @@ public class BetterRemoteControlTest {
 		Light livingRoomLight = new Light();
 		GarrageDoor garrageDoor = new GarrageDoor();
 		Stereo livingRoomStereo = new Stereo();
+		CeilingFan ceilingFan = new CeilingFan("Toilet");
 		
 		LightOnCommand livingOn = new LightOnCommand(livingRoomLight);
 		LightOffCommand livingOff = new LightOffCommand(livingRoomLight);
 		LightOnCommand kitchenOn  = new LightOnCommand(kitchenLight);
 		LightOffCommand kitchenOff = new LightOffCommand(kitchenLight);
+		
+		CeilingFanHighCommand ceilingFanHigh = new CeilingFanHighCommand(ceilingFan);
+		CeilingFanOffCommand ceilingFanOff = new CeilingFanOffCommand(ceilingFan);
 		
 		
 		GarrageOpenCommand garrageOpen = new GarrageOpenCommand(garrageDoor);
@@ -23,12 +27,15 @@ public class BetterRemoteControlTest {
 		remote.setCommand(1, livingOn, livingOff);
 		remote.setCommand(2, garrageOpen, garrageDown);
 		remote.setCommand(3, stereoOn, stereoOff);
+		remote.setCommand(4, ceilingFanHigh, ceilingFanOff);
 		
 		
 		remote.onButtonWasPushed(0);
 		remote.onButtonWasPushed(1);
 		remote.onButtonWasPushed(2);
 		remote.onButtonWasPushed(3);
+		remote.onButtonWasPushed(4);
+		remote.undoButtonWasPush();
 		
 		remote.offButtonWasPushed(0);
 		remote.offButtonWasPushed(1);
