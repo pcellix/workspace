@@ -1,0 +1,36 @@
+//============================================================================
+// Name        : FirstProject.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+class Human {
+
+private:
+	int money;
+
+public:
+	Human() {
+		cout<<"Jestem human";
+	}
+
+
+	int getMoney() {
+		return this->money;
+	}
+
+
+};
+
+
+
+int main() {
+
+	return 0;
+}

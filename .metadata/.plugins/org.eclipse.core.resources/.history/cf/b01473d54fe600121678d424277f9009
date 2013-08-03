@@ -1,0 +1,11 @@
+
+public class CaffeineBevarage {
+	
+	final void prepareRecipe() {
+		boilWater();
+		brew();
+		pourInCup();
+		addCondiments();
+	}
+
+}

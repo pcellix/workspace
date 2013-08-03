@@ -1,0 +1,15 @@
+
+public class HomeTheaterFacade {
+    Amplifier amplifier;
+    Tuner tuner;
+    DvdPlayer dvdPlayer;
+    CdPlayer cdPlayer;
+    Projector projector;
+    TheaterLights theaterLights;
+    
+    public HomeTheaterFacade(Amplifier amplifier, Tuner tuner, DvdPlayer dvdPlayer, CdPlayer cdPlayer, Projector projector, TheaterLights theaterLights) {
+    	
+    }
+    
+    
+}

@@ -1,0 +1,7 @@
+
+public class Subway implements {
+	
+	public Dough createDough(){
+		return new ThinDough();
+	}
+}

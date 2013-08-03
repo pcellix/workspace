@@ -1,0 +1,15 @@
+public class Main {
+	public static void main(String[] args) {
+		
+		System.out.println("Ja");
+	
+
+		
+		int[] anArray= {1,2};
+		anArray[1]=111;
+		
+		System.out.println(anArray[1]);
+		
+		
+	}
+}

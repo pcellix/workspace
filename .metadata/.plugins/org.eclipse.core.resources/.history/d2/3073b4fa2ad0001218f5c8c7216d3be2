@@ -1,0 +1,16 @@
+
+public class Main {
+	
+	  public static void main(String[] args) {
+		  
+		  Human lewandowski = new Footballer();
+		  Human sadDude =  new Disabled();
+		  
+		  lewandowski.performMove();
+		  lewandowski.setMoveStyle(new SlowRun());
+		  lewandowski.performMove();
+		  sadDude.performMove();
+		  
+	    }
+	
+}

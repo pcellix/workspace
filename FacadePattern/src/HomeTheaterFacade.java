@@ -1,0 +1,26 @@
+
+public class HomeTheaterFacade {
+    Amplifier amplifier;
+    Tuner tuner;
+    DvdPlayer dvdPlayer;
+    CdPlayer cdPlayer;
+    Projector projector;
+    TheaterLights theaterLights;
+    
+    public HomeTheaterFacade(Amplifier amplifier, Tuner tuner, DvdPlayer dvdPlayer, CdPlayer cdPlayer, Projector projector, TheaterLights theaterLights) {
+         this.amplifier = amplifier;
+         this.cdPlayer = cdPlayer;
+         this.dvdPlayer = dvdPlayer;
+         this.projector = projector;
+         this.theaterLights = theaterLights;                  
+    }
+    
+    public void watchMovie() {
+    	amplifier.on();
+    	dvdPlayer.on();
+    	projector.on();
+    	theaterLights.off();
+    }
+    
+    
+}

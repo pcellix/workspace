@@ -1,0 +1,36 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+
+public class TeaWithHook extends CaffeineBevaregeWithHook {
+
+	@Override
+	public void brew() {
+		System.out.println("Steeping teabag");
+	}
+	
+	@Override
+	public void addCondiments() {
+		System.out.println("Adding lemon");
+	}
+	
+	
+	@Override 
+	boolean customerWantsCondiments() {
+		return false;
+	}
+    
+	private String getUserInput() {
+		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+		try {
+			in.readLine();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return in.toString()
+		
+	}
+	
+}

@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="prototype.js"></script> 
+<script src="my.js"></script> 
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<p id="ja">asdasdasdasdas</p>
+</body>
+</html>

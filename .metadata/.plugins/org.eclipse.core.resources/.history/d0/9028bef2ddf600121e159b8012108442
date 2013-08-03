@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="height=600" />
+<script src="prototype.js"></script> 
+<script src="my.js"></script> 
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<p id ="nie"></p>
+<p id="ja">Plain text and rich text
+
+Files that contain markup or other meta-data are generally considered plain-text, as long as the entirety remains in directly human-readable form (as in HTML, XML, and so on (as Coombs, Renear, and DeRose argue,[1] punctuation is itself markup)). The use of plain text rather than bit-streams to express markup, enables files to survive much better "in the wild", in part by making them largely immune to computer architecture incompatibilities.
+
+According to The Unicode Standard,
+
+    «Plain text is a pure sequence of character codes; plain Unicode-encoded text is therefore a sequence of Unicode character codes.»
+    styled text, also known as rich text, is any text representation containing plain text completed by information such as a language identifier, font size, color, hypertext links.[2]
+
+For instance, Rich text such as SGML, RTF, HTML, XML, and TEX relies on plain text. Wiki technology is another such example.
+
+According to The Unicode Standard, plain text has two main properties in regard to rich text:
+
+    «plain text is the underlying content stream to which formatting can be applied.»
+    «Plain text is public, standardized, and universally readable.».[3]
+
+f it tried to interpret one character set as another. The International Organisation for Standardisation (ISO) eventually developed several code pages under ISO 8859, to accommodate various languages. The first of these (ISO 8859-1) is also known as "Latin-1", and covers the needs of most (not all) European languages that use Latin-based characters (there was not quite enough room to cover them all). ISO 2022 then provided conventions for "switching" between different character sets in mid-file. Many other organisations developed variations on these, and for many years Windows and Macintosh computers used incompatible variations.</p>
+<a href="jaaa.html">assas</a>
+<a href="aaa.html">asasa</a>
+</body>
+</html>

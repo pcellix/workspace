@@ -1,0 +1,7 @@
+
+public class ThickDough {
+
+	public ThickDough() {
+		System.out.println("ThickDough");
+	}
+}

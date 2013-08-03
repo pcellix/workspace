@@ -1,0 +1,27 @@
+public class TCoffee {
+	
+	void prepareRecipe() {
+		boilWater();
+		brewCoffeGrinds();
+		pourInCup();
+		addLemon();
+	}
+	
+	public void boilWater() {
+		System.out.println("Boiling water");
+	}
+	
+	public void steepTeaBag() {
+		System.out.println("Steeping teabag");
+	}
+	
+	public void pourInCup() {
+		System.out.println("Pouring in cup");
+	}
+	
+	public void addLemon() {
+		System.out.println("Adding lemon");
+	}
+
+
+}

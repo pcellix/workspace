@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="android.content.DialogInterface.OnClickListener"/>
+<fullyQualifiedTypeName name="android.view.View.OnLongClickListener"/>
+<fullyQualifiedTypeName name="com.example.textviewtest.R.string"/>
+<fullyQualifiedTypeName name="android.widget.RelativeLayout"/>
+<fullyQualifiedTypeName name="com.example.textviewtest.R.layout"/>
+<fullyQualifiedTypeName name="com.example.textviewtest.R.id"/>
+<fullyQualifiedTypeName name="com.example.textviewtest.TextExtension"/>
+<fullyQualifiedTypeName name="android.content.ClipboardManager"/>
+<fullyQualifiedTypeName name="ClipboardListener"/>
+<fullyQualifiedTypeName name="FlyWithWings"/>
+<fullyQualifiedTypeName name="MallardDuck"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="ModelDuck"/>
+<fullyQualifiedTypeName name="FlyNoWay"/>
+<fullyQualifiedTypeName name="FlyRocketPowered"/>
+<fullyQualifiedTypeName name="FlyBehavior"/>
+<fullyQualifiedTypeName name="Human"/>
+<fullyQualifiedTypeName name="Footballer"/>
+<fullyQualifiedTypeName name="SlowRun"/>
+<fullyQualifiedTypeName name="MoveStyle"/>
+<fullyQualifiedTypeName name="Disabled"/>
+<fullyQualifiedTypeName name="DisabledMove"/>
+<fullyQualifiedTypeName name="com.example.urlimageview.R.id"/>
+<fullyQualifiedTypeName name="android.os.Handler"/>
+<fullyQualifiedTypeName name="com.example.urlimageview.R"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="android.content.Intent"/>
+<fullyQualifiedTypeName name="com.example.urlimageview.SettingsActivity"/>
+<fullyQualifiedTypeName name="com.example.urlimageview.MainActivity"/>
+<fullyQualifiedTypeName name="java.lang.Thread"/>
+<fullyQualifiedTypeName name="java.lang.Runnable"/>
+<fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+<fullyQualifiedTypeName name="java.util.jar.Attributes"/>
+<fullyQualifiedTypeName name="android.util.Log"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="Command"/>
+<fullyQualifiedTypeName name="StereoOffCommand"/>
+<fullyQualifiedTypeName name="Stereo"/>
+<fullyQualifiedTypeName name="StereoOnCommand"/>
+<fullyQualifiedTypeName name="GarrageDoor"/>
+</qualifiedTypeNameHistroy>

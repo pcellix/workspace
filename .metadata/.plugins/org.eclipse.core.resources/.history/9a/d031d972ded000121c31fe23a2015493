@@ -1,0 +1,8 @@
+
+public class BarbacoaSauce {
+	
+	public BarbacoaSauce() {
+		System.out.println("Barbacoa Sauce");
+	}
+
+}

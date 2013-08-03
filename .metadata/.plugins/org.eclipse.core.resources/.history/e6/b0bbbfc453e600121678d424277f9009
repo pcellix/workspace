@@ -1,0 +1,28 @@
+import java.io.BufferedReader;
+
+
+public class TeaWithHook extends CaffeineBevaregeWithHook {
+
+	@Override
+	public void brew() {
+		System.out.println("Steeping teabag");
+	}
+	
+	@Override
+	public void addCondiments() {
+		System.out.println("Adding lemon");
+	}
+	
+	
+	@Override 
+	boolean customerWantsCondiments() {
+		return false;
+	}
+    
+	private String getUserInput() {
+		BufferedReader in = new BufferedReader;
+		in.
+		
+	}
+	
+}

@@ -92,8 +92,7 @@ public class MainActivity extends Activity {
 			
 						URL url = new URL(
 								"http://www.muzykalnie.pl/pictures/Wokalistki/Cheryl_Cole/cheryl_cole_3.jpg");
-						HttpURLConnection connection = (HttpURLConnection) url
-								.openConnection();
+                                 String ja = url.openConnection().getContent().toString();
 						connection.setDoInput(true);
 						connection.connect();
 						InputStream input = connection.getInputStream();

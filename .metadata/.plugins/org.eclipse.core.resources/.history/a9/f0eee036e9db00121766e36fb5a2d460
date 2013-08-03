@@ -1,0 +1,7 @@
+
+public class BetterRemoteControlTest {
+	public static void main(String[] args) {
+		RemoteControl remote = new RemoteControl();
+		
+	}
+}

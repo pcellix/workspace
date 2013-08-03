@@ -1,0 +1,8 @@
+
+public class Insect {
+	private int i = 9;
+	protected int j;
+	Insect() {
+		print("i=" + i );
+	}
+}

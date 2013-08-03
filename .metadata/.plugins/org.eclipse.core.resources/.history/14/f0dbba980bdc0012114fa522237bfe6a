@@ -1,0 +1,6 @@
+
+public class CeilingFanHighCommand implements Command {
+	CeilingFan ceilingFan;
+	int prevSpeed;
+
+}

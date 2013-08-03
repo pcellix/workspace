@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;downloadJson.java&apos; to &apos;TextViewTest/src/com.example.textviewtest&apos;&#x0A;- Original project: &apos;movieSearch&apos;&#x0A;- Destination element: &apos;TextViewTest/src/com.example.textviewtest&apos;&#x0A;- Original element: &apos;com.example.jsonexample.downloadJson.java&apos;" description="Copy compilation unit" destination="=TextViewTest/src&lt;com.example.textviewtest" element1="/src&lt;com.example.jsonexample{downloadJson.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1367618723590" units="1" version="1.0"/>
+</session>

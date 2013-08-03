@@ -1,0 +1,14 @@
+
+public class SuperClassWith2 {
+	
+	public void Supera() {
+		System.out.println("Im a superclass");
+	}
+	
+	public void Supera(int ia) {
+		System.out.println("Im a superclass" + ia);
+	}
+	
+
+
+}

@@ -1,0 +1,6 @@
+document.observe("dom:loaded", function() {
+	$('ja').setStyle({
+		backgroundColor: '#900',
+		fontSize: '12px'
+	});
+});

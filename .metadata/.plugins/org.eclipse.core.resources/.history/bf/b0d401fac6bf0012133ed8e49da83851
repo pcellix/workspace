@@ -1,0 +1,17 @@
+public class Main {
+	public static void main(String[] args) {
+		
+		String[][] names= {{"Wojciech","Tomasz"
+			
+		},{"Kosowicz","Kudlinski"}
+		};
+
+		
+		int[] anArray= {1,2};
+		anArray[1]=111;
+		
+		System.out.println(anArray[1]);
+		
+		
+	}
+}

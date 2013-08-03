@@ -1,0 +1,15 @@
+
+public class DoughWithSauce extends Product {
+
+ PizzaIngredientFactory ingredientFactory;
+ 
+ 	DoughWithSauce(PizzaIngredientFactory pizzaIngredientFactory){
+ 		this.ingredientFactory = pizzaIngredientFactory;
+ 		
+ 	}
+ 	
+ 	public void prepare(){
+ 		
+ 	}
+	
+}

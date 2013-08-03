@@ -1,0 +1,17 @@
+document.observe("dom:loaded", function() {
+	$('ja').setStyle({
+		backgroundColor: '#900',
+		fontSize: '12px'
+	});
+	$$('a:active').each(
+			   function (e) {
+			      e.setStyle({fontColor:'green'}); 
+			   } 
+			);
+	$$('a').each(
+			   function (e) {
+			      e.setStyle({border:'1px solid green'}); 
+			   } 
+			);
+	
+});

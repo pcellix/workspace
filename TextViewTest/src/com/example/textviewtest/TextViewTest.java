@@ -62,9 +62,15 @@ public class TextViewTest extends Activity {
 	        } 
 	});  */
 		
+	public void searchButtonClick(){
+	int start = text1.getSelectionStart();
+	int end = text1.getSelectionStart();
+	String searchPhrase = text1.getText().toString().substring(start, end);
+		Log.d("phrase",searchPhrase);
+		
+	}
 	
-	
-	@Override
+
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.text_view_test, menu);

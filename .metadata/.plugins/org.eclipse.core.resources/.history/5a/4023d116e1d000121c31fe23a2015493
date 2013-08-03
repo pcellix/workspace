@@ -1,0 +1,7 @@
+
+public class KfcStore extends Store {
+
+	public Product createPizza(Strina name){
+		
+	}
+}

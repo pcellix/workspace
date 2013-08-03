@@ -1,0 +1,21 @@
+
+public class KfcStore extends Store {
+
+	KfcStore(){
+		
+	}
+	
+	
+	Product product;
+	
+	
+	
+	public Product createPizza(Strina name){
+		PizzaIngredientFactory ingredientFactory = new Kfc();
+		Product product = null;
+		
+		if (name.equals("doughwithsauce")){
+			product = new DoughWithSauce(ingredientFactory);
+		}
+	}
+}
