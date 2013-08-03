@@ -1,0 +1,4 @@
+$('test').setStyle({
+	backgroundColor: '#900',
+	fontSize: '12px'
+});

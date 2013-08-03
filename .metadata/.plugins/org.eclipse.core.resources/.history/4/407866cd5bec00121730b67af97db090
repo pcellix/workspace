@@ -1,0 +1,12 @@
+
+public class SubClassWith  extends SuperClassWith2{
+	
+	public void Supera(String a) {
+		System.out.println(a);
+	}
+	
+	public static void main(String[] args) {
+		SubClassWith a = new SubClassWith();
+
+	}
+}

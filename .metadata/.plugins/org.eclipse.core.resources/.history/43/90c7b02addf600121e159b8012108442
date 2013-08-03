@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="height=600" />
+<script src="prototype.js"></script> 
+<script src="my.js"></script> 
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<p id="ja">asdasdasdasdas</p>
+<a href="jaaa.html">assas</a>
+<a href="aaa.html">asasa</a>
+</body>
+</html>

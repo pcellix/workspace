@@ -1,0 +1,8 @@
+
+public abstract class Store {
+	
+	public abstract Product createPizza(String productType);
+	
+	public void ()
+	
+}

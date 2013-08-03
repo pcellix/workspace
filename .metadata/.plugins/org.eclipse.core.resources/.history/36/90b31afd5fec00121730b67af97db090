@@ -1,0 +1,22 @@
+
+public class SubClassWith  extends SuperClassWith2{
+	
+	public static final int A = 5;
+	
+	Ducks ducks = new Ducks(1);
+	
+	public SubClassWith() {
+		System.out.println("Im a subclass");
+	}
+	
+	public void Supera(final int a) {
+		System.out.println(a);
+		a++;
+	}
+	
+	public static void main(String[] args) {
+		SubClassWith a = new SubClassWith();
+		a.Supera(1);
+
+	}
+}

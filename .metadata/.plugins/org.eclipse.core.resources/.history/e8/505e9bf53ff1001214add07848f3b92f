@@ -1,0 +1,10 @@
+
+public class Beetle extends Insect {
+	private int k = printInit("Beetle k jest zainicjowana");
+	
+	public Beetle() { 
+		System.out.println("k" + k + "j = "  +j);
+		
+	}
+
+}

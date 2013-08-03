@@ -1,0 +1,21 @@
+
+public class Tea extends CaffeineBevarage {
+
+	
+
+	@Override
+	public void brew() {
+		System.out.println("Steeping teabag");
+	}
+	
+	public void pourInCup() {
+		System.out.println("Pouring in cup");
+	}
+	
+	@Override
+	public void addCondiments() {
+		System.out.println("Adding lemon");
+	}
+
+
+}

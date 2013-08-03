@@ -1,0 +1,9 @@
+
+public class Main {
+		
+	public static void main(String[] args) {
+		Ducks[] ducks = {new Ducks(12), new Ducks(32), new Ducks(1)};
+		
+	}
+
+}

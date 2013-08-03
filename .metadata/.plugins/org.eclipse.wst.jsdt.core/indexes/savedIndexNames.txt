@@ -1,0 +1,6 @@
+INDEX VERSION 1.122+/home/wojtek/workspace/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+4174426765.index
+977123289.index
+3830938910.index
+2494809688.index
+703709094.index

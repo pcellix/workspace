@@ -1,0 +1,9 @@
+
+public class Dough {
+
+	String doughName;
+	
+	public String getDoughName(){
+		return this.doughName;
+	}
+}

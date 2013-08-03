@@ -1,0 +1,18 @@
+
+public class HomeTheaterTest {
+	public static void main(String[] args) {
+		CdPlayer cdPlayer;
+		Amplifier amplifier;
+		DvdPlayer dvdPlayer;
+		Projector projector;
+		Tuner tuner;
+		
+         cdPlayer = new CdPlayer(amplifier);
+		 amplifier = new Amplifier(tuner, dvdPlayer, cdPlayer);
+		 dvdPlayer = new DvdPlayer(amplifier);
+         projector = new Projector(dvdPlayer);
+		TheaterLights theaterLights = new TheaterLights();
+		
+	}
+
+}

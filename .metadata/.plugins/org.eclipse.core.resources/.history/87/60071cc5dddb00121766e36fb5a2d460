@@ -1,0 +1,14 @@
+
+public class GarrageOpenCommand implements Command {
+	GarrageDoor garrageDoor;
+	
+	
+	@Override
+	public void execute() {
+		
+		
+	}
+	
+	
+
+}

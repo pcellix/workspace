@@ -1,0 +1,11 @@
+ddms.logcat.auotmonitor.level=info
+ddms.logcat.automonitor.userprompt=true
+eclipse.preferences.version=1
+logcat.view.colsize.Application=169
+logcat.view.colsize.Level=22
+logcat.view.colsize.PID=54
+logcat.view.colsize.TID=54
+logcat.view.colsize.Tag=125
+logcat.view.colsize.Text=674
+logcat.view.colsize.Time=156
+logcat.view.filters.list=name\: 'lol', tag\: 'lol', text\: '', pid\: '', app\: '', level\: 'verbose', name\: 'kwas', tag\: 'kwas', text\: '', pid\: '', app\: '', level\: 'verbose', name\: 'ziom', tag\: 'ziom', text\: '', pid\: '', app\: '', level\: 'verbose', name\: 'bass', tag\: 'bass', text\: '', pid\: '', app\: '', level\: 'verbose', 

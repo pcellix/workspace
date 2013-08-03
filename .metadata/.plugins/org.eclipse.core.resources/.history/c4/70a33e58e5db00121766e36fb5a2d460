@@ -1,0 +1,10 @@
+
+public class RemoteControl {
+	Command[] onCommands;
+	Command[] offCommands;
+	
+	public RemoteControl() {
+		onCommands = new Command[3];
+		offCommands = new Command[3]; 
+
+}

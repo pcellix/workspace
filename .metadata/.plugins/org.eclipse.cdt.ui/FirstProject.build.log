@@ -1,0 +1,10 @@
+
+**** Build of configuration Debug for project FirstProject ****
+
+make all 
+Building file: ../src/FirstProject.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FirstProject.d" -MT"src/FirstProject.d" -o"src/FirstProject.o" "../src/FirstProject.cpp"
+../src/FirstProject.cpp: In function ‘int main()’:
+../src/FirstProject.cpp:29:26: error: conversion from ‘Human*’ to non-scalar type ‘Human’ requested
+make: *** [src/FirstProject.o] Błąd 1

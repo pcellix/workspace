@@ -1,0 +1,8 @@
+
+public class SuperClassWith2 {
+	
+	public SuperClassWith2() {
+		System.out.println("Im a superclass");
+	}
+
+}

@@ -1,0 +1,7 @@
+
+public class ThinDough extends Dough {
+	
+	public ThinDough() {
+		
+	}
+}

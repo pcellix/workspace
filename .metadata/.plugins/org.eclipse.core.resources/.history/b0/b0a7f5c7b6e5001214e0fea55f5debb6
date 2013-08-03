@@ -1,0 +1,10 @@
+
+public class Amplifier {
+    Tuner tuner;
+    DvdPlayer dvdPlayer;
+    CdPlayer  cdPlayer;
+    
+    public void on() {
+    	System.out.println("Amplifier on");
+    }
+}

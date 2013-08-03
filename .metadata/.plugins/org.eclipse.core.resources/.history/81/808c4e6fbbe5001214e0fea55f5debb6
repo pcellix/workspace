@@ -1,0 +1,8 @@
+
+public class DvdPlayer {
+    Amplifier amplifier;
+    
+    public DvdPlayer(Amplifier amplifier) {
+    	this.amplifier = amplifier;
+    }
+}

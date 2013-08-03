@@ -1,0 +1,16 @@
+
+public class StarbuzzCoffee {
+	public static void main(String[] args){
+		Beverage espresso = new Espresso();
+		System.out.println(espresso.cost());
+		espresso.setSize(true);
+		Beverage mocha = new Mocha(espresso);
+		System.out.println(mocha.cost());
+		Beverage doubleMocha = new Mocha(mocha(new Soy));
+		System.out.println(doubleMocha.cost());
+		Beverage soy = new Soy(doubleMocha);
+		System.out.println(soy.cost());
+		
+		
+	}
+}

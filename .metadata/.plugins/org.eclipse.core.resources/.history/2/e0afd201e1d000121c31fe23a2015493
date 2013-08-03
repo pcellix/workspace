@@ -1,0 +1,4 @@
+
+public class KfcStore extends Store {
+
+}

@@ -1,0 +1,14 @@
+
+public class GarrageDoor {
+	
+	public void up() {
+		System.out.println("Garrage door is up");
+	}
+	
+	public void down() {
+		System.out.println("Garrage door is down");
+	}
+	
+	
+
+}

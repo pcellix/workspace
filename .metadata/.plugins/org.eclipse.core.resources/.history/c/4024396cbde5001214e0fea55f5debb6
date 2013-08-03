@@ -1,0 +1,12 @@
+
+public class Projector {
+	DvdPlayer dvdPlayer;
+	
+	public Projector(DvdPlayer dvdPlayer) {
+		this.dvdPlayer = dvdPlayer;
+	}
+	
+	public void on() {
+		this.dvdPlayer = dvdPlayer;
+	}
+}
